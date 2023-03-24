@@ -1,0 +1,99 @@
+body {
+  background-image: url("detailsbg.jpg");
+}
+h1{
+  font-family: 'Arial Narrow Bold', sans-serif;
+  margin-top: 5px;
+  font-size: 25px;
+}
+
+a#my{
+  
+  text-decoration: none;
+  background-color: rgb(21, 186, 101);
+  color: white;
+  padding: 7px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 6px;
+
+
+}
+
+
+
+/* Style for the form container */
+.form-container {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+width: 50%;
+padding: 20px;
+background-color: #f2f2f2;
+border-radius: 10px;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style for the form fields */
+input[type="text"],
+select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+/* Style for the form buttons */
+input[type="submit"],
+input[type="button"],
+input[type="reset"] {
+  color: white;
+  padding: 8px 11px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+  margin-right: 6px;
+}
+
+
+
+/* Style for the form button container */
+.button-container {
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+/* Media queries for mobile devices */
+@media screen and (max-width: 768px) {
+  .form-container {
+    width: 85%;
+    padding: 10px;
+  }
+
+  input[type="submit"],
+  input[type="button"],
+  input[type="reset"] {
+    margin-right: 5px;
+  }
+
+  .button-container {
+    justify-content: center;
+  }
+}
+
+
+p{
+font-family:sans-serif ;
+}
+
+
+
+
